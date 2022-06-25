@@ -1,0 +1,57 @@
+.mainHeading {
+    font-size: 22px;
+    text-align: center;
+    font-weight: bold;
+    width: auto;
+}
+
+h1 {
+    color: #A4A400;
+    text-decoration: underline;
+    background-color: #F0F0F0;
+    font-family: Lucida Sans Unicode, Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    letter-spacing: 0.10em;
+    width: fit-content;
+}
+
+body {
+    background-color: white;
+    background-image: url("/images/silverware.jpeg");
+    background-attachment: fixed;
+    /* background-repeat: no-repeat; */
+    color: #404040;
+    font-size: 11px;
+    font-family: Georgia, Garamond, serif;
+}
+
+a {
+    color: #A4A400;
+}
+
+.strikeIdentity {
+    text-decoration: line-through;
+
+}
+
+.mainTitles {
+    font-weight: bold;
+}
+
+.abbrCommon {
+    text-decoration-line: underline;
+    text-decoration-style: dotted;
+    text-decoration-color: rgb(0, 0, 0);
+}
+
+.userQuotationBlock{
+    background-color: #FFFFA8;
+    font-style: italic;
+    margin-left: 25px;
+}
+.metainfo{
+    float:right ;
+}
+.validator{
+    margin-left: 28px;
+}
