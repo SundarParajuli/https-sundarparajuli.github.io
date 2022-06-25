@@ -17,9 +17,8 @@ h1 {
 
 body {
     background-color: white;
-    background-image: url("/images/silverware.jpeg");
+    background-image: url("../images/silverware.jpeg");
     background-attachment: fixed;
-    /* background-repeat: no-repeat; */
     color: #404040;
     font-size: 11px;
     font-family: Georgia, Garamond, serif;
@@ -54,4 +53,7 @@ a {
 }
 .validator{
     margin-left: 28px;
+}
+ul li{
+    list-style-image: url("../images/pie_bullet.png");
 }
