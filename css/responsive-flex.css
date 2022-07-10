@@ -1,0 +1,83 @@
+body {
+  margin: 5px;
+}
+
+.header {
+  background-color: rgb(162, 217, 232);
+  color: black;
+  font-size: 15pt;
+  font-weight: bolder;
+  text-align: center;
+  padding: 15px;
+}
+
+.menu {
+  display: flex;
+  background-color: rgb(36, 80, 79);
+  color: white;
+  /* padding: 10px; */
+  justify-content: flex-start;
+}
+
+.menu div {
+  margin: 10px 10px;
+}
+
+.columnContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.columnContainer>div {
+  height: 100px;
+  text-align: center;
+}
+
+/* for screens > 600px */
+@media screen and (min-width: 600px) {
+
+  .childColumnI {
+    background-color: rgb(170, 170, 170);
+    flex: 1;
+  }
+
+  .childColumnII {
+    background-color: rgb(187, 187, 187);
+    flex: 1;
+ 
+  }
+
+  .childColumnIII {
+    background-color: rgb(204, 204, 204);
+    flex: 1;
+  }
+}
+
+/* for lower screens */
+@media screen and (max-width: 600px) {
+
+  .childColumnI {
+    background-color: rgb(170, 170, 170);
+    flex: 1 0 50%;
+  }
+
+  .childColumnII {
+    background-color: rgb(187, 187, 187);
+    flex: 1 0 100%;
+    order: 1;
+  }
+
+  .childColumnIII {
+    background-color: rgb(204, 204, 204);
+    flex: 1 0 50%;
+  }
+}
+
+.footer {
+  background-color: rgb(36, 80, 79);
+  color: white;
+  font-size: 12pt;
+  font-weight: bold;
+  text-align: center;
+  padding: 15px;
+}
